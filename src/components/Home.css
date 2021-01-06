@@ -1,0 +1,44 @@
+.home
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: " . main . "
+}
+.container
+{
+	grid-area: main;
+}
+.degreeButton
+{
+	display: inline-block;
+}
+.degree
+{
+	display: inline-block;
+}
+.field
+{
+	display: inline-block;
+}
+h3
+{
+	color: #FFFFFF;
+}
+button
+{
+	border: 2px solid #FFFFFF;
+	background-color: #003BAE;
+	color: #FFFFFF;
+	padding: 2px;
+}
+input
+{
+	border: 2px solid #FFFFFF;
+	background-color: #003BAE;
+	color: #FFFFFF;
+	padding: 2px;
+}
+input:focus
+{
+	outline: none;
+}
