@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <h3>
+    <h3 class="headerText">
 		SKY INFO
 	</h3>
   </div>
@@ -24,13 +24,4 @@ export default
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.header
-{
-	border: 2px solid #FFFFFF;
-}
-h3
-{
-	color: #FFFFFF;
-}
-</style>
+<style scoped src="./Header.css"></style>

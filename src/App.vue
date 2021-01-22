@@ -30,5 +30,8 @@ export default {
   color: #2c3e50;
   margin: 0px;
   background-color: blue;
+  height: 100vh;
+  background-image: url("./assets/sky.png");
+  background-size: cover;
 }
 </style>

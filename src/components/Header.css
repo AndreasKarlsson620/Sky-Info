@@ -1,0 +1,44 @@
+.header
+{
+	border: 2px solid #FFFFFF;
+}
+.headerText
+{
+	color: #FFFFFF;
+	font-size: 17vw;
+	margin: 0;
+	/*Chrome, Safari, newer versions of Opera, almost all iOS browsers (including Firefox for iOS)*/
+	-webkit-animation: fade 5s infinite;
+	/*Firefox*/
+	-moz-animation: fade 5s infinite;
+	/*Old, pre-WebKit, versions of Opera*/
+	-o-animation: fade 5s infinite;
+	animation: fade 5s infinite;
+}
+@keyframes fade
+{
+	0%   { opacity:1; }
+	50%  { opacity:0; }
+	100% { opacity:1; }
+}
+/*Old, pre-WebKit, versions of Opera*/
+@-o-keyframes fade
+{
+	0%   { opacity:1; }
+	50%  { opacity:0; }
+	100% { opacity:1; }
+}
+/*Firefox*/
+@-moz-keyframes fade
+{
+	0%   { opacity:1; }
+	50%  { opacity:0; }
+	100% { opacity:1; }
+}
+/*Chrome, Safari, newer versions of Opera, almost all iOS browsers (including Firefox for iOS)*/
+@-webkit-keyframes fade
+{
+	0%   { opacity:1; }
+	50%  { opacity:0; }
+	100% { opacity:1; }
+}
