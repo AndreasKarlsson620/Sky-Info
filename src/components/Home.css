@@ -10,6 +10,16 @@
 	display: flex;
 	flex-direction: column;
 }
+.iconWeathDesc
+{
+	font-size: 3.5vw;
+}
+.weather, .description
+{}
+.pickDigree
+{
+	margin-bottom: 1em;
+}
 .pickDigree, .latFavLong, .cityDiv
 {
 	margin-top: 1em;
@@ -35,6 +45,56 @@
 	display: inline-block;
 	font-size: 7vw;
 }
+.infoDiv
+{
+	color: #FFFFFF;
+}
+.feeMinMax
+{
+	margin-bottom: 0.5em;
+}
+.minDiv
+{
+	margin: 0em 1em;
+}
+.feelsDiv, .minDiv, .maxDiv
+{
+	display: inline-block;
+	font-size: 3.5vw;
+}
+.feels
+{}
+.min
+{}
+.max
+{}
+.feels, .min, .max
+{
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
+.presHum
+{}
+.presDiv
+{
+	margin-right: 1em;
+}
+.humiDiv
+{}
+.presDiv, .humiDiv
+{
+	display: inline-block;
+	font-size: 3.5vw;
+}
+.pressure
+{}
+.humidity
+{}
+.pressure, .humidity
+{
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
 .latField
 {}
 .favButton
@@ -53,6 +113,10 @@
 	font-size: 3.5vw;
 }
 h3
+{
+	color: #FFFFFF;
+}
+h4
 {
 	color: #FFFFFF;
 }
