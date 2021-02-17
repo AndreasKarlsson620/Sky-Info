@@ -2,21 +2,18 @@
 	<div id="app">
 		<Header/>
 		<Home/>
-		<History/>
 	</div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import Home from './components/Home.vue'
-import History from './components/History.vue'
 
 export default {
 	name: 'App',
 	components: {
 		Header,
-		Home,
-		History
+		Home
 	}
 }
 </script>

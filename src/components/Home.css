@@ -12,88 +12,129 @@
 }
 .iconWeathDesc
 {
-	font-size: 3.5vw;
+	height: 12vh;
+	margin-bottom: 0.5em;
+	font-size: 3vw;
 }
-.weather, .description
-{}
+.icon
+{
+	width: 13vw;
+}
+.weather
+{
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+	font-size: 3vw;
+}
+.description
+{
+	margin-top: 0em;
+	margin-bottom: 0em;
+	font-size: 3vw;
+}
 .pickDigree
 {
-	margin-bottom: 1em;
-}
-.pickDigree, .latFavLong, .cityDiv
-{
-	margin-top: 1em;
-}
-.historyDiv
-{
-	margin-top: 2em;
+	margin-bottom: 0.5em;
 }
 .celButton
-{}
+{
+	margin: 0;
+	display: inline-block;
+	font-size: 7vw;
+}
 .degree
 {
 	margin: 0em 1em;
+	display: inline-block;
+	font-size: 7vw;
 }
 .fahrButton
-{}
-.celButton, .fahrButton
 {
 	margin: 0;
-}
-.celButton, .degree, .fahrButton
-{
 	display: inline-block;
 	font-size: 7vw;
 }
 .infoDiv
 {
+	height: 5vh;
+	margin-bottom: 1em;
 	color: #FFFFFF;
 }
-.feeMinMax
+.info
 {
+	margin-left: 2em;
+	margin-right: 2em;
+	border: 2px solid #FFFFFF;
+	background-color: #003BAE;
+	color: #FFFFFF;
+}
+.feelsDiv
+{
+	margin-right: 1em;
+	display: inline-block;
+	font-size: 3vw;
+}
+.feels
+{
+	margin-top: 0em;
 	margin-bottom: 0.5em;
 }
 .minDiv
 {
-	margin: 0em 1em;
-}
-.feelsDiv, .minDiv, .maxDiv
-{
+	margin-right: 1em;
 	display: inline-block;
-	font-size: 3.5vw;
+	font-size: 3vw;
 }
-.feels
-{}
 .min
-{}
-.max
-{}
-.feels, .min, .max
 {
 	margin-top: 0em;
 	margin-bottom: 0.5em;
 }
-.presHum
-{}
+.maxDiv
+{
+	margin-right: 1em;
+	display: inline-block;
+	font-size: 3vw;
+}
+.max
+{
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
 .presDiv
 {
 	margin-right: 1em;
-}
-.humiDiv
-{}
-.presDiv, .humiDiv
-{
 	display: inline-block;
-	font-size: 3.5vw;
+	font-size: 3vw;
 }
 .pressure
-{}
-.humidity
-{}
-.pressure, .humidity
 {
 	margin-top: 0em;
 	margin-bottom: 0.5em;
+}
+.humiDiv
+{
+	display: inline-block;
+	font-size: 3vw;
+}
+.humidity
+{
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
+.latFavLong
+{
+	margin-bottom: 0.5em;
+}
+.latDiv
+{
+	display: inline-block;
+}
+.latitude
+{
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+	font-size: 3vw;
 }
 .latField
 {}
@@ -102,15 +143,160 @@
 	margin: 0em 1em;
 	font-size: 3.5vw;
 }
+.longDiv
+{
+	display: inline-block;
+}
+.longitude
+{
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+	font-size: 3vw;
+}
 .longField
 {}
-.latField, .favButton, .longField
-{}
+.cityDiv
+{
+	margin-bottom: 1em;
+}
+.cityName
+{
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+	font-size: 3vw;
+}
 .cityField
 {}
+.favoritesDiv
+{
+	margin-bottom: 1em;
+}
+.favoritesButton
+{
+	margin: 0;
+	font-size: 3.5vw;
+}
+.favoritesInfo
+{
+	margin-left: 2em;
+	margin-right: 2em;
+	border: 2px solid #FFFFFF;
+	background-color: #003BAE;
+	color: #FFFFFF;
+}
+.favorite
+{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.historyDiv
+{
+	margin-top: 0.5;
+	margin-bottom: 0.5em;
+}
 .historyButton
 {
+	margin: 0;
 	font-size: 3.5vw;
+}
+.historyInfo
+{
+	border: 2px solid #FFFFFF;
+	background-color: #003BAE;
+	color: #FFFFFF;
+}
+.card
+{
+	font-size: 3vw;
+	margin: 0.5em 0em;
+}
+.hisIconTimeDiv
+{}
+.hisDate
+{
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+.hisIcon
+{
+	width: 13vw;
+}
+.stats
+{
+	margin-bottom: 0.5em;
+}
+.hisWeathDesc
+{
+	display: inline-block;
+	margin-right: 1em;
+}
+.hisWeather
+{
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
+.hisDescription
+{
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+.hisTempCelDiv
+{
+	display: inline-block;
+	margin-right: 1em;
+}
+.hisTempCel
+{
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
+.hisFeelsCelDiv
+{
+	display: inline-block;
+	margin-right: 1em;
+}
+.hisFeelsCel
+{
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
+.hisTempFahrDiv
+{
+	display: inline-block;
+	margin-right: 1em;
+}
+.hisTempFahr
+{
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
+.hisFeelsFahrDiv
+{
+	display: inline-block;
+}
+.hisFeelsFahr
+{
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
+.hisPresDiv
+{
+	display: inline-block;
+	margin-right: 1em;
+}
+.hisPressure
+{
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
+.hisHumiDiv
+{
+	display: inline-block;
+}
+.hisHumidity
+{
+	margin-top: 0em;
+	margin-bottom: 0.5em;
 }
 h3
 {
